@@ -1,3 +1,4 @@
+/* Configuração iniciais do body */
 body{
     margin: 0;
     padding: 0;
@@ -6,15 +7,18 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Cabeçalho */
 header{
     background-color: #322A3E;
     padding: 20px;
 }
 
+/* Configuração de cursor */
 header a{
     cursor: default;
 }
 
+/* Configuração do ícone home */
 .home{
     width: 8%;
     height: 8%;
@@ -23,6 +27,7 @@ header a{
     justify-content: space-between;
 }
 
+/* Configuração do ícone beach */
 .beach{
     width: 8%;
     height: 8%;
@@ -31,11 +36,13 @@ header a{
     justify-content: space-between;
 }
 
+/* Configuração do ícone castle */
 .castle{
     width: 7%;
     height: 7%;
 }
 
+/* Configuração do texto */
 p{
     font-weight: bold;
     color: white;
@@ -43,6 +50,7 @@ p{
     font-size: 30px;
 }
 
+/* Configuração da foto "em casa" */
 .emcasa{
     align-items: center;
     width: 55%;

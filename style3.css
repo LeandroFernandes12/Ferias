@@ -1,3 +1,4 @@
+/* Configuração iniciais do body */
 body{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Cabeçalho do lado branco*/
 header div{
     display: flex;
     position: absolute;
@@ -16,6 +18,7 @@ header div{
     padding-left: 50%;
 }
 
+/* Configuração lado branco */
 .branco{
     display: flex;
     position: absolute;
@@ -26,15 +29,18 @@ header div{
     padding-left: 50%;
 }
 
+/* Cabeçalho */
 header{
     background-color: #322A3E;
     padding: 20px;
 }
 
+/* Configuração de cursor */
 header a{
     cursor: default;
 }
 
+/* Configuração do ícone home */
 .home{
     width: 8%;
     height: 8%;
@@ -42,6 +48,7 @@ header a{
     justify-content: space-between;
 }
 
+/* Configuração do ícone beach */
 .beach{
     width: 8%;
     height: 8%;
@@ -50,6 +57,7 @@ header a{
     justify-content: space-between;
 }
 
+/* Configuração do ícone castle */
 .castle{
     width: 7%;
     height: 7%;
@@ -57,16 +65,7 @@ header a{
     
 }
 
-.emcasa{
-    align-items: center;
-    width: 55%;
-    height: 55%;
-    margin-left: 23%;
-    margin-bottom: 30px;
-    border: solid 10px black;
-    border-radius: 10px;
-}
-
+/* Configuração de imagens gerais */
 div img{
     display: flex;
     position: absolute;
@@ -77,15 +76,18 @@ div img{
     border: solid black 10px;
 }
 
-.desenhando{
+/* Configuração da foto no shopping */
+.shop{
     top: 140%;
 }
 
-.youtube{
+/* Configuração da foto na chacara */
+.chacara{
     top: 140%;
     left: 4%;
 }
 
+/* configuração dos avisos separadamente (aviso 1,2 e 3) */
 .aviso{
     font-size: 20px;
     color: black;
@@ -113,6 +115,7 @@ div img{
     right: 57%;
 }
 
+/* Configuração dos textos */
 .textos{
     font-weight: bold;
     text-align: center;
@@ -121,6 +124,7 @@ div img{
     font-size: 25px;
 }
 
+/* Configuração do emoji descolado */
 .descolado{
     border: 0;
     display: flex;
