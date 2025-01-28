@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #3F374C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #322A3E;
+    padding: 20px;
+}
+
+header a{
+    cursor: default;
+}
+
+.home{
+    width: 8%;
+    height: 8%;
+    padding-right: 400px;
+    padding-left: 45px;
+    justify-content: space-between;
+}
+
+.beach{
+    width: 8%;
+    height: 8%;
+    padding-right: 400px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.castle{
+    width: 7%;
+    height: 7%;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.emcasa{
+    align-items: center;
+    width: 55%;
+    height: 55%;
+    margin-left: 23%;
+    margin-bottom: 30px;
+    border: solid 10px black;
+    border-radius: 10px;
+}
