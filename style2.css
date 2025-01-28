@@ -22,7 +22,7 @@ header div{
     background-color: #D9D9D9;
     left: 0;
     top: 25%;
-    padding-bottom: 110%;
+    padding-bottom: 120%;
     padding-right: 50%;
 }
 
@@ -139,5 +139,23 @@ div img{
     top: 60%;
     width: 30%;
     height: 60%;
+}
+
+button{
+    background-color:  #322A3E;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    border: solid #322A3E 2px;
+    border-radius: 10px;
+    top: 250%;
+    left: 43%;
+    cursor: pointer;
+}
+
+button p{
+    color: #D9D9D9;
+    font-weight: bold;
 }
 
